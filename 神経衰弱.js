@@ -99,7 +99,7 @@ function turn(e) {
      //var ms = difference % 1000///
      //var elapsedTime = Math.floor(()/100);
      //var ms = ///
-     var str =　 + '秒経過' //+ "." +  ms + '秒';
+     var str =　sec + '秒経過'  //+ "." +  ms + '秒';
      var re = document.getElementById('result');
      re.innerHTML = str;
  }
